@@ -8,7 +8,12 @@ bikeshare analysis
 An interactive command line python code  
 which enables user to select a city and specific time  
 and measure to get aggregated data about bikeshare  
-service in this city
+service in this city  
+user can choose from 3 cities:  
+Chicago  
+New York  
+Washington  
+and summary data about bikeshare service will be displayed to him/her
 ### Files used
 bikeshare.py  
 chicago.csv  
