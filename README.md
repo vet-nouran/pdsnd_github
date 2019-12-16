@@ -17,4 +17,5 @@ washington.csv
 
 ### Credits
 Python documentation was of huge use  
-and helped me in figuring out how to finish the project.
+and helped me in figuring out how to finish the project  
+also the shell workshop helped me a lot in figuring out   taking input from the shell and printing out messages.
