@@ -12,7 +12,6 @@ months = ('january', 'february', 'march', 'april', 'may', 'june')
 weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday',
             'saturday')
 
-
 def choice(prompt, choices=('y', 'n')):
     """Return a valid input from the user given an array of possible answers.
     """
@@ -134,7 +133,7 @@ def load_data(city, month, day):
     return df
 
 
-def time_stats(df):
+def time_statistics(df):
     """Displays statistics on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
@@ -158,7 +157,7 @@ def time_stats(df):
     print("\nThis took {} seconds.".format((time.time() - start_time)))
     print('-'*40)
 
-def station_stats(df):
+def station_statistics(df):
     """Displays statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
@@ -262,15 +261,14 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
-        time_stats(df)
-        station_stats(df)
+        time_statistics(df)
+        station_statistics(df)
         trip_duration_stats(df)
         user_stats(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
