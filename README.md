@@ -5,11 +5,16 @@
 bikeshare analysis
 
 ### Description
-Describe what your project is about and what it does
-
+An interactive command line python code  
+which enables user to select a city and specific time  
+and measure to get aggregated data about bikeshare  
+service in this city
 ### Files used
-Include the files used
+bikeshare.py  
+chicago.csv  
+new_york_city.csv  
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Python documentation was of huge use  
+and helped me in figuring out how to finish the project.
